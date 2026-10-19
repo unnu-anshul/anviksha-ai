@@ -1,0 +1,7 @@
+{
+  "paper_clean.pdf":        {"must_have_any": ["reproduced"],               "must_not_have": ["discrepancy"]},
+  "paper_discrepancy.pdf":  {"must_have_any": ["discrepancy"],              "must_not_have": []},
+  "paper_stats.pdf":        {"must_have_any": ["discrepancy"],              "must_not_have": []},
+  "paper_not_checkable.pdf":{"must_have_any": ["not_checkable"],            "must_not_have": ["reproduced", "discrepancy"]},
+  "paper_failure.pdf":      {"must_have_any": ["not_checkable", "unverified"], "must_not_have": ["reproduced", "discrepancy"]}
+}
