@@ -50,7 +50,6 @@ def ask_json(prompt, system="", task="generic", retries=3, use_cache=True):
                 config=types.GenerateContentConfig(
                     system_instruction=system,
                     response_mime_type="application/json",
-                    temperature=0.1,
                 ),
             )
             data = _parse_json(resp.text)
