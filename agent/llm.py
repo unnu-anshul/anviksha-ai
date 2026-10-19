@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 CACHE_DIR = Path(".cache/llm")
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 _client = None
