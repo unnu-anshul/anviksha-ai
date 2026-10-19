@@ -1,0 +1,8 @@
+venv/
+.venv/
+__pycache__/
+.env
+.cache/
+anviksha.db
+runs/*.json
+*.pyc

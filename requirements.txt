@@ -1,0 +1,10 @@
+streamlit
+langgraph
+google-genai
+pymupdf
+numpy
+pandas
+scipy
+requests
+python-dotenv
+reportlab
